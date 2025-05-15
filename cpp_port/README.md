@@ -73,6 +73,17 @@ g++ -std=c++17 -Wall -Wextra -O2 -o depression_classification main.cpp
     - Enter your data for the simplified list of features.
     - View your predicted risk level, the associated probability, and personalized recommendations.
 
+## How to Run Unit Test
+
+1.  **Compile the unit test code**
+    ```bash
+    g++ -std=c++11 unit_test.cpp -o test
+    ```
+2.  **Run the executable** from your terminal:
+    ```bash
+    ./test
+    ```
+
 ## Input Data for CLI
 
 The Command Line Interface will prompt you for the following simplified inputs:
